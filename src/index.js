@@ -10,6 +10,8 @@ import reportWebVitals from './reportWebVitals';
 
 //third thing is the reducer, which describe how the actions transform the state into next state
 
+//final step is dispatch, that executes the action (dispatch action to reducer)
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
