@@ -4,6 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+//first thing we need is the store, which is the container for all the states i want to save
+
+//second thing we need is an action, which describes actions that can be performed on saved states in the store
+
+//third thing is the reducer, which describe how the actions transform the state into next state
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
